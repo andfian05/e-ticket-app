@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: "/e-ticket-app",
   server: {
     proxy: {
       "/api": {
